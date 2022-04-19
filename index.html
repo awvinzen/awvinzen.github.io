@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Stopwatch SAASDEV</title>
+  <link rel="stylesheet" href=index.css>
+</head>
+<body>
+  <div class="container">
+  <h1>Stopwatch</h1>
+    <div>
+        <p id="stopwatch"><span id="hours">00</span>:<span id="minute">00</span>:<span id="sec">00</span></p>
+       <div>
+       <button onclick="startTimer()">Start</button>
+        <button onclick="lapTimer()">Lap</button>
+        <button onclick="stopTimer()">Stop</button>
+        <button onclick="resetTimer()">Reset</button>
+       </div>
+       <p id="Laps"></p>
+    </div> 
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
